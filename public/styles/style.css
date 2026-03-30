@@ -1,1 +1,135 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 5px solid;
+    border-color: aqua;
+
+    padding-right: 240px;
+    padding-left: 240px;
+    
+}
+
+.header .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 8vh;
+}
+
+.navbar {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    list-style-type: none;
+}
+
+.navbar li a {
+    color: #f39755;
+    text-decoration: none;
+}
+
+.navbar li:nth-child(3) {
+    color: #f39755;
+}
+
+.banner {
+    background-image:  url(/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para-home.png);
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner .container {
+    width: 320px;
+
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+
+.social {
+    height: 90vh;    
+}
+.social img {
+    width: 100%;
+    margin: 20px;
+}
+
+.social h4 {
+    margin: 20px;
+    color: rgb(255, 41, 77);
+    font-size: 24px;
+}
+
+.social p {
+    display: flex;
+    text-align: center;
+}
+
+.social .container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 420px;
+    margin-right: 420px;
+
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: aqua;
+}
+
+.footer {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 30px;
+
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(83, 161, 161);
+}
