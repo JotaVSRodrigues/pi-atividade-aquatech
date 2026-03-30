@@ -133,3 +133,97 @@ body {
     font-size: 20px;
     background-color: rgb(83, 161, 161);
 }
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container {
+    background-color: rgb(228, 228, 228);
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px;
+    margin-bottom: 200px;
+
+    color: rgb(255, 55, 88);
+    font-weight: bold;
+    text-align: center;
+}
+
+.login .container h2 {
+    font-size: 26px;
+}
+
+.card .card-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario input {
+    border: solid 2px rgb(0, 172, 172);
+    border-radius: 6px;
+
+    margin: 10px;
+    padding: 5px 200px;
+
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.botao {
+    background-color: rgb(255, 55, 88);
+    padding: 10px 30px;
+
+    color: white;
+    font-weight: bold;
+    margin: 20px 15px;
+
+    border-radius: 8px;
+    border: solid transparent;
+}
+
+.login {
+    background-image: url(/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para_outras_pags.png)
+}
+/* #email_input {
+    
+    border: solid 2px rgb(0, 172, 172);
+    border-radius: 6px;
+
+    margin: 10px;
+    padding: 5px 200px;
+
+    text-align: center;
+
+}
+
+#senha_input {
+    border: solid 2px rgb(0, 172, 172);
+    border-radius: 6px;
+
+    margin: 10px;
+    padding: 5px 200px;
+
+    text-align: center;
+
+} */
